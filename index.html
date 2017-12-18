@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <title>士谔导师帽</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" crossorigin="anonymous">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="quiz-part">
+        <header class="g">
+            <p class="container"><span>士谔导师帽</span></p>
+        </header>
+        <div class="container">
+            <div id="progress">
+                <div id="progress-inner" style="width:0%;"></div>
+            </div>
+            <div class="introduction text-center" id="introduction">
+                <h1>导师来啦！</h1>
+                <p class="lead">为了迎接前来帮助大家的 <b>60 余位</b>优秀的导师们，
+                    <br>我们特地准备了一个 <b>H5</b></p>
+                <img src="static/comic_1w.png" class="img-fluid" alt="新操作">
+                <p>“啥玩意啊”</p>
+                <p>
+                    或许大家还不知道这个 H5 是干嘛的，
+                    <br> 不过大家一定知道 60 实在不是一个小数字
+                    <br>
+                    <b>“这么多的导师怎么了解呀！”</b>
+                </p>
+                <img src="static/comic_2w.png" class="img-fluid" alt="摸了">
+                <p>“摸了摸了”</p>
+                <p>
+                    为了防止这个<b>大数字</b>
+                    <br> 成为阻碍大家了解导师的绊脚石
+                    <br> 我们特地为大家准备了这个
+                    <b>大宝（H）贝（5）</b>
+                    <br> ——士谔导师帽
+                </p>
+                <img src="static/comic_3w.png" class="img-fluid" alt="大宝贝">
+                <p>“噔噔噔噔”</p>
+                <p>
+                    通过这个大宝贝
+                    <br> 你就可以快速找到你中意的导师啦
+                </p>
+                <img src="static/comic_4w.png" class="img-fluid" alt="厉害了">
+                <p>
+                    还不快试试看
+                    <br>
+                    <span style="font-size: 200%;">↓</span>
+                </p>
+                <button id="enter-quiz">
+                    开始吧
+                </button>
+            </div>
+            <div class="question">
+                <div class="q-title"></div>
+                <div class="q-description"></div>
+                <div class="q-answers">
+                </div>
+            </div>
+            <div class="hierophant">
+                <p class="text-center lead">
+                    emmmm...
+                    <br>
+                    <small>搞定啦！看看推荐给你的导师们<br>或了解一下所有的导师吧</small>
+                </p>
+                <hr>
+                <p class="d-title">查看</p>
+                <div class="btn-group">
+                    <label class="btn btn-secondary" id="option1">
+                        全部
+                    </label>
+                    <label class="btn btn-secondary active" id="option2">
+                        推荐
+                    </label>
+                </div>
+                <p class="d-title" id="titleOfClass">学院选择（多选）</p>
+                <div class="btn-group" data-toggle="buttons" id="chooseOfClass">
+                    <label class="btn btn-secondary active" id="college02">
+                        <input type="checkbox" checked autocomplete="off">软件工程
+                    </label>
+                    <label class="btn btn-secondary active" id="college01">
+                        <input type="checkbox" checked autocomplete="off">计算机
+                    </label>
+                    <label class="btn btn-secondary active" id="college00">
+                        <input type="checkbox" checked autocomplete="off">电子信息
+                    </label>
+                </div>
+                <hr>
+                <div class="d-avatar-list" id="chosen-hier">
+                </div>
+                <div class="d-avatar-list" id="full-hier">
+                </div>
+                <div id="d-single">
+                    <div class="d-single-before"></div>
+                    <div class="d-single-fix">
+                        <div class="d-avatar"></div>
+                        <div id="d-single-close"><span aria-hidden="true">&times;</span></div>
+                    </div>
+                    <div class="container">
+                        <div class="d-single-name"></div>
+                        <div class="d-single-position"></div>
+                        <div class="d-single-email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a></a></div>
+                        <div class="d-single-description">
+                        </div>
+                    </div>
+                </div>
+                <!--新增加的界面在这里-->
+            </div>
+            <footer class="g">
+                &copy; 北航士谔书院 2017
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

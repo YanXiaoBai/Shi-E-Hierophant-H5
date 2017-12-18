@@ -1,0 +1,83 @@
+{
+	"numOfNews":13,
+	"news":[
+		{
+			"index":"0",
+			"title":"高校电子竞技是富矿 如何开采费思量",
+			"link":"http://tech.sina.com.cn/roll/2017-11-05/doc-ifynmnae1985506.shtml",
+			"class":0
+		},
+		{
+			"index":"1",
+			"title":"中国大气质量整体好转？卫星遥感图带你看真相",
+			"link":"http://tech.sina.com.cn/roll/2017-06-13/doc-ifyfzaaq6235309.shtml",
+			"class":0
+		},
+		{
+			"index":"2",
+			"title":"借助网络技术，确保“舌尖上的安全”",
+			"link":"http://news.sina.com.cn/o/2017-08-30/doc-ifykiurx2889907.shtml",
+			"class":0
+		},
+		{
+			"index":"3",
+			"title":"雷达信号处理技术再助天舟天宫太空之吻",
+			"link":"http://edu.sina.com.cn/gaokao/2017-04-22/doc-ifyepsec0270344.shtml",
+			"class":0
+		},
+		{
+			"index":"4",
+			"title":"鲍春来羽毛球速度堪比高铁 无人机能否成功躲避？",
+			"link":"http://ent.sina.com.cn/tv/zy/2017-11-03/doc-ifynmzrs6508587.shtml",
+			"class":0
+		},
+		{
+			"index":"5",
+			"title":"苹果公司：要加入Siri团队 你需要将软件工程和心理学结合在一起",
+			"link":"http://www.jkeabc.com/mobile/20170917/1372.html",
+			"class":2
+		},
+		{
+			"index":"6",
+			"title":"小龙虾互联大数据 传统餐饮与快递、智能制造的互融",
+			"link":"http://news.163.com/17/1106/03/D2HFO1G100018AOP.html",
+			"class":2
+		},
+		{
+			"index":"7",
+			"title":"听博世交互设计师谈用户体验和设计思维",
+			"link":"http://money.163.com/17/1025/17/D1K2QRR3002580S6.html",
+			"class":2
+		},
+		{
+			"index":"8",
+			"title":"Facebook考虑用人工智能打击虚假新闻",
+			"link":"http://tech.ifeng.com/a/20161202/44504221_0.shtml",
+			"class":1
+		},
+		{
+			"index":"9",
+			"title":"《绝地求生》大数据：游戏时长25815年 吃鸡10255吨",
+			"link":"http://www.gamersky.com/news/201708/941871.shtml?tag=wap",
+			"class":1
+		},
+		{
+			"index":"q",
+			"title":"银翼杀手？虚拟现实？解密史上最玄的VR艺术展",
+			"link":"http://www.sohu.com/a/202143347_541698",
+			"class":1
+		},
+		{
+			"index":"w",
+			"title":"腾讯安全蝉联世界冠军背后： 中国已成全球网络安全技术发展的领军者",
+			"link":"http://city.cri.cn/20171106/efcdcbfc-f35b-5e13-cbd8-296490457e64.html",
+			"class":1
+		},
+		{
+			"index":"e",
+			"title":"天津造“智能大脑”指挥无人机送快递",
+			"link":"http://news.enorth.com.cn/system/2017/11/06/033995027.shtml",
+			"class":0
+		},
+	]
+}

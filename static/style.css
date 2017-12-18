@@ -1,0 +1,308 @@
+﻿html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    background: #171717 url(dark_background.png) repeat;
+    background-size: 10px auto;
+    height: 100%
+}
+
+#quiz-part header.g {
+    height: 250px;
+    color: #fff
+}
+
+#quiz-part header.g p {
+    margin: 0;
+    height: 60px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#quiz-part .container {
+    position: relative;
+    z-index: 10
+}
+
+#quiz-part .container #progress {
+    height: 6px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: -190px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+#quiz-part .container #progress #progress-inner {
+    height: 100%;
+    background: #fff
+}
+
+#quiz-part .container .question {
+    width: 100%;
+    background: #212121;
+    color: #d2d2d2;
+    padding: 1.5em 15px;
+    line-height: 2
+}
+
+#quiz-part .container .question .q-title {
+    font-size: 150%;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: .4em
+}
+
+#quiz-part .container .question .q-description {
+    opacity: .8;
+    line-height: 1.8;
+    margin-bottom: 20px
+}
+
+#quiz-part .container .question .q-answer {
+    width: 100%;
+    padding: .5em 1em;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+    color: rgba(255, 255, 255, 0.56);
+    margin-bottom: 7px;
+    transition: background .3s, color .3s
+}
+
+#quiz-part .container .question .q-answer.active {
+    background: #4494f9;
+    color: #fff
+}
+
+#quiz-part .container .introduction {
+    width: 100%;
+    background: #212121;
+    color: #d2d2d2;
+    padding: 1.5em 15px;
+    line-height: 1.8
+}
+
+#quiz-part .container .introduction h1 {
+    margin-bottom: 1em
+}
+
+#quiz-part .container .introduction img {
+    margin-bottom: 1em
+}
+
+#quiz-part .container .introduction #enter-quiz {
+    width: 70%;
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+    padding: .5em 1em;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin-top: 1em;
+    box-shadow: 0 7px 16px rgba(37, 37, 37, 0.2)
+}
+
+#quiz-part .container .hierophant {
+    width: 100%;
+    background: #212121;
+    color: #d2d2d2;
+    padding: 1.5em 15px;
+    line-height: 1.8;
+    font-size: 90%
+}
+
+#quiz-part .container .hierophant img {
+    border-radius: 10px;
+    width: 64px
+}
+
+#quiz-part .container .hierophant .searchDir {
+    word-break: break-all
+}
+
+#quiz-part .container .hierophant .d-title {
+    margin-bottom: .2em;
+    margin-top: 1em
+}
+
+#quiz-part .container .hierophant .btn-group .btn {
+    outline: none;
+    transition: background .3s, color .3s;
+    border: none
+}
+
+#quiz-part .container .hierophant .btn-group .btn.active {
+    background: #4494f9;
+    color: #fff
+}
+
+#quiz-part .container .hierophant .btn-group .btn:focus {
+    outline: none
+}
+
+#quiz-part .container .hierophant #d-single {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    z-index: 1000;
+    transition: top .5s ease
+}
+
+#quiz-part .container .hierophant #d-single.active {
+    top: 0
+}
+
+#quiz-part .container .hierophant #d-single #d-single-close {
+    width: 40px;
+    height: 40px;
+    background: #b92222;
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    top: 55px
+}
+
+#quiz-part .container .hierophant #d-single .d-single-before {
+    height: 75px;
+    background: transparent
+}
+
+#quiz-part .container .hierophant #d-single .d-single-fix {
+    background: #2a2a2a;
+    height: 115px
+}
+
+#quiz-part .container .hierophant #d-single .container {
+    background: #2a2a2a;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 215px
+}
+
+#quiz-part .container .hierophant #d-single .container .d-single-name {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    color: #fff
+}
+
+#quiz-part .container .hierophant #d-single .container .d-single-position {
+    text-align: center
+}
+
+#quiz-part .container .hierophant #d-single .container .d-single-email {
+    text-align: center;
+    margin: 1em 0
+}
+
+#quiz-part .container .hierophant #d-single .d-avatar {
+    width: 33.33333%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -16.65%
+}
+
+#quiz-part .container .hierophant #d-single .d-avatar .d-avatar-name {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.56)
+}
+
+#quiz-part .container .hierophant .d-avatar-list {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#quiz-part .container .hierophant .d-avatar-list .d-avatar-wrap {
+    width: 33.33%;
+    padding: 5px
+}
+
+#quiz-part .container .hierophant .d-avatar-list .d-avatar-wrap .d-avatar {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+
+#quiz-part .container .hierophant .d-avatar-list .d-avatar-wrap .d-avatar.active {
+    box-shadow: inset 0 0 35px rgba(0, 195, 255, 0.5)
+}
+
+#quiz-part .container .hierophant .d-avatar-list .d-avatar-wrap .d-avatar.active .d-avatar-name {
+    background: rgba(0, 195, 255, 0.9);
+    color: #fff
+}
+
+#quiz-part .container .hierophant .d-avatar-list .d-avatar-wrap .d-avatar .d-avatar-name {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.56)
+}
+
+#quiz-part .container .hierophant .h-btn {
+    width: 100%;
+    padding: .5em 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    background: #f2f2f2;
+    margin-bottom: 7px
+}
+
+#quiz-part .container .hierophant .h-btn:active {
+    background: #ededed
+}
+
+#quiz-part footer.g {
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+    padding: 20px 0
+}
+
+.media-body {
+    word-break: break-all
+}
+
+a[title="站长统计"] {
+    display: none;
+    opacity: 0;
+    visibility: hidden
+}
